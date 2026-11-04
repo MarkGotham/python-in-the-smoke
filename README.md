@@ -43,6 +43,22 @@ and draw on London-specific topics
 [notebooks to follow]
 
 
+The "Part II" notebooks are "applied":
+- Each assumes knowledge of the foundational "Part I" notebooks.
+- None requires knowledge of any other applied notebook.
+
+In short:
+```
+Part I                 Part II
+(series)               (flat)
+
+                       ┌── Each
+                       ├── Notebook
+a ── b ── c ── ... ────┼── in
+                       ├── Part
+                       └── II
+```
+
 ---
 
 ## Getting Started
