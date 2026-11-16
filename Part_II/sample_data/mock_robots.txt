@@ -1,0 +1,4 @@
+# INVENTED example robots.txt for teaching
+User-agent: *
+Disallow: /private/
+Crawl-delay: 5

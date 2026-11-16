@@ -1,0 +1,41 @@
+{
+  "_PLACEHOLDER_NOTE": "PLACEHOLDER records only (not real V&A data). Replace this file with a real saved response from the notebook's save step, keeping the same structure.",
+  "info": {
+    "record_count": null,
+    "record_count_exact": null,
+    "page_size": 3,
+    "pages": null
+  },
+  "records": [
+    {
+      "systemNumber": "PLACEHOLDER-1",
+      "objectType": "Placeholder type A",
+      "_primaryTitle": "Placeholder record 1",
+      "_primaryDate": "unknown",
+      "_primaryPlace": "unknown",
+      "_primaryMaker": {
+        "name": "Placeholder maker"
+      }
+    },
+    {
+      "systemNumber": "PLACEHOLDER-2",
+      "objectType": "Placeholder type A",
+      "_primaryTitle": "Placeholder record 2",
+      "_primaryDate": "unknown",
+      "_primaryPlace": "unknown",
+      "_primaryMaker": {
+        "name": ""
+      }
+    },
+    {
+      "systemNumber": "PLACEHOLDER-3",
+      "objectType": "Placeholder type B",
+      "_primaryTitle": "Placeholder record 3",
+      "_primaryDate": "unknown",
+      "_primaryPlace": "unknown",
+      "_primaryMaker": {
+        "name": "Placeholder maker"
+      }
+    }
+  ]
+}
