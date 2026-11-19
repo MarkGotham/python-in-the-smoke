@@ -7,7 +7,20 @@
 
 **Licence:** MIT
 
-**About:**
+
+On this page:
+
+- [About this resource](#about)
+- [List of notebooks](#notebooks)
+- [Getting Started](#getting-started)
+  - [Where are my files!](#where-are-my-files)
+  - [Environment](#environment)
+  - [Power users](#power-users)
+- [What's in a Name?](#whats-in-a-name)
+- [Note to Students](#note-to-students)
+- [Note to Instructors](#note-to-instructors)   
+
+## About
 
 "Python in the Smoke" is a beginner's introduction to Python, with no prior experience required.
 This is a coherent series of self-contained Jupyter notebooks for learning Python from scratch.
@@ -28,29 +41,26 @@ and draw on London-specific topics
 
 **Part I: Foundations**
 
-|   | Notebook                                                                          | Topics                                             | Colab                                                                                                                                                                                                     |
-|---|-----------------------------------------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| a | [`a_getting_started.ipynb`](./Part_I/a_getting_started.ipynb)                     | Jupyter basics, numbers, text, types, variables    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/a_getting_started.ipynb)           |
-| b | [`b_lists_dictionaries.ipynb`](./Part_I/b_lists_dictionaries.ipynb)               | Lists, indices, slices, dicts                      | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/b_lists_dictionaries.ipynb)        |
-| c | [`c_booleans_conditionals.ipynb`](./Part_I/c_booleans_conditionals.ipynb)         | Comparisons, `and`/`or`, `if`/`elif`/`else`        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/c_booleans_conditionals.ipynb)     |
-| d | [`d_loops.ipynb`](./Part_I/d_loops.ipynb)                                         | `for`, `range`, accumulator pattern, looping dicts | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/d_loops.ipynb)                     |
-| e | [`e_functions.ipynb`](./Part_I/e_functions.ipynb)                                 | `def`, parameters, `return`                        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/e_functions.ipynb)                 |
-| f | [`f_packages_dataframes.ipynb`](./Part_I/f_packages_dataframes.ipynb)             | packages, dataframes                               | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/f_packages_dataframes.ipynb)       |
-| g | [`g_file_folder_import_export.ipynb`](./Part_I/g_file_folder_import_export.ipynb) | import/export files                                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/g_file_folder_import_export.ipynb) |
-| h | [`h_cleaning_data.ipynb`](./Part_I/h_cleaning_data.ipynb)                         | improving data quality, avoiding errors            | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/h_cleaning_data.ipynb)             |
-| i | [`i_exploring_data.ipynb`](./Part_I/i_exploring_data.ipynb)                       | working towards data analysis reseach questions    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/i_exploring_data.ipynb)            |
-| j | [`j_visualising_data.ipynb`](./Part_I/j_visualising_data.ipynb)                   | creating a visual summary of data to tell a story  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/j_visualising_data.ipynb)          |
-
-Test alternative for direct download behaviour in GitHub pages:
-<a href="./Part_I/a_getting_started.ipynb" download>Download notebook</a>
+| (Code and) Topic | Notebook  | Colab |
+|---|---|---|
+| a:  getting started | <a href="./Part_I/a_getting_started.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/a_getting_started.ipynb) |
+| b:  lists dictionaries | <a href="./Part_I/b_lists_dictionaries.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/b_lists_dictionaries.ipynb) |
+| c:  booleans conditionals | <a href="./Part_I/c_booleans_conditionals.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/c_booleans_conditionals.ipynb) |
+| d:  loops | <a href="./Part_I/d_loops.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/d_loops.ipynb) |
+| e:  functions | <a href="./Part_I/e_functions.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/e_functions.ipynb) |
+| f:  packages dataframes | <a href="./Part_I/f_packages_dataframes.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/f_packages_dataframes.ipynb) |
+| g:  file folder import export | <a href="./Part_I/g_file_folder_import_export.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/g_file_folder_import_export.ipynb) |
+| h:  cleaning data | <a href="./Part_I/h_cleaning_data.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/h_cleaning_data.ipynb) |
+| i:  exploring data | <a href="./Part_I/i_exploring_data.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/i_exploring_data.ipynb) |
+| j:  visualising data | <a href="./Part_I/j_visualising_data.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_I/j_visualising_data.ipynb) |
 
 **Part II: Applications**
 
-| Notebook                                             | Topics                                                  | Colab                                                                                                                                                                                       |
-|------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`apis_json.ipynb`](./Part_II/apis_json.ipynb)       | Accessing APIs, using JSON data.                        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_II/apis_json.ipynb)    |
-| [`web_scraping.ipynb`](./Part_II/web_scraping.ipynb) | Web scraping: how to, and when (NOT!) to                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_II/web_scraping.ipynb) |
-| [`text_nlp.ipynb`](./Part_II/apis_json.ipynb)   | Working with text, mostly POS, brief note on sentiment. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_II/text_nlp.ipynb)     |
+| (Code and) Topic | Notebook  | Colab |
+|---|---|---|
+| apis json | <a href="./Part_II/apis_json.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_II/apis_json.ipynb) |
+| text nlp | <a href="./Part_II/text_nlp.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_II/text_nlp.ipynb) |
+| web scraping | <a href="./Part_II/web_scraping.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_II/web_scraping.ipynb) |
 
 The "Part II" notebooks are "applied":
 - Each assumes knowledge of the foundational "Part I" notebooks.
@@ -100,7 +110,7 @@ both setting up Python and using notebooks, e.g., [PyCharm](https://www.jetbrain
 This setup phase is the most liable to go wrong.
 In case of difficulties, read on.
 
-### * Where are my files!
+### Where are my files!
 
 You need to know where your files are stored.
 - **macOS**: the main navigator is called "Finder",
