@@ -41,6 +41,8 @@ and draw on London-specific topics
 | i | [`i_exploring_data.ipynb`](./Part_I/i_exploring_data.ipynb)                       | working towards data analysis reseach questions    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/i_exploring_data.ipynb)            |
 | j | [`j_visualising_data.ipynb`](./Part_I/j_visualising_data.ipynb)                   | creating a visual summary of data to tell a story  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_I/j_visualising_data.ipynb)          |
 
+Test alternative for direct download behaviour in GitHub pages:
+<a href="./Part_I/a_getting_started.ipynb" download>Download notebook</a>
 
 **Part II: Applications**
 
