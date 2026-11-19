@@ -44,14 +44,21 @@ and draw on London-specific topics
 
 **Part II: Applications**
 
-[notebooks to follow]
-
+| Notebook                                             | Topics                                                  | Colab                                                                                                                                                                                       |
+|------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`apis_json.ipynb`](./Part_II/apis_json.ipynb)       | Accessing APIs, using JSON data.                        | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_II/apis_json.ipynb)    |
+| [`web_scraping.ipynb`](./Part_II/web_scraping.ipynb) | Web scraping: how to, and when (NOT!) to                | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_II/web_scraping.ipynb) |
+| [`text_nlp.ipynb`](./Part_II/apis_json.ipynb)   | Working with text, mostly POS, brief note on sentiment. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke//blob/main/Part_II/text_nlp.ipynb)     |
 
 The "Part II" notebooks are "applied":
 - Each assumes knowledge of the foundational "Part I" notebooks.
-- None requires knowledge of any other applied notebook.
+- None requires knowledge of any other applied notebook (though some make use of that functionality).
+- Several notebooks in Part II suggest extensions of the given topic and here are further topics not covered:
+  - Image data with `scikit-image`
+  - Location data with `geopandas` (GIS)
+  - Networks with `networkx`
+  - Machine learning with `scikit-learn` (train/test splits, baselines, overfitting)
 
-In short:
 ```
 Part I                 Part II
 (series)               (flat)
