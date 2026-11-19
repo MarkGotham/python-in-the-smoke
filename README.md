@@ -56,9 +56,10 @@ and draw on London-specific topics
 
 **Part II: Applications**
 
-| (Code and) Topic | Notebook  | Colab |
+| Topic | Notebook  | Colab |
 |---|---|---|
 | apis json | <a href="./Part_II/apis_json.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_II/apis_json.ipynb) |
+| audio numpy | <a href="./Part_II/audio_numpy.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_II/audio_numpy.ipynb) |
 | text nlp | <a href="./Part_II/text_nlp.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_II/text_nlp.ipynb) |
 | web scraping | <a href="./Part_II/web_scraping.ipynb" download>Download</a> | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MarkGotham/python-in-the-smoke/blob/main/Part_II/web_scraping.ipynb) |
 
