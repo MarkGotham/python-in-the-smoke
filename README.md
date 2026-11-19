@@ -103,8 +103,8 @@ both setting up Python and using notebooks, e.g., [PyCharm](https://www.jetbrain
 - Unzip the download (in most cases, simply clicking on it is enough to unzip)
 - Open the IDE
 (it will be in Applications, and also findable with tricks like the "Spotlight search" on Mac)
-- Within the IDE, open this project
-(you need to know where you downloaded it*)
+- Within the IDE, open this project.
+For that, you need to know where you downloaded it ([see notes below](#where-are-my-files))
 - Follow the IDE's instructions for setting up an environment.
 
 This setup phase is the most liable to go wrong.
