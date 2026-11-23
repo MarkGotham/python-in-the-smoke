@@ -68,7 +68,6 @@ The "Part II" notebooks are "applied":
 - Each assumes knowledge of the foundational "Part I" notebooks.
 - None requires knowledge of any other applied notebook (though some make use of that functionality).
 - Several notebooks in Part II suggest extensions of the given topic and here are further topics not covered:
-  - Image data with `scikit-image`
   - Location data with `geopandas` (GIS)
   - Networks with `networkx`
   - Machine learning with `scikit-learn` (train/test splits, baselines, overfitting)
